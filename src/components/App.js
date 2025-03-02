@@ -7,7 +7,7 @@ function App() {
   const [markdownText, setMarkdownText] = useState("");
 
   return (
-    <div className="app-container">
+    <div className="app">
       <h1>Markdown Editor</h1>
       <MarkdownEditor markdownText={markdownText} setMarkdownText={setMarkdownText} />
     </div>
