@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import ReactMarkdown from "react-markdown";
 import "./App.css";
 
-function Markdown() {
+function App() {
   const [markdown, setMarkdown] = useState("");
   const [loading, setLoading] = useState(true);
 
@@ -34,4 +34,4 @@ function Markdown() {
   );
 }
 
-export default Markdown;
+export default App;
