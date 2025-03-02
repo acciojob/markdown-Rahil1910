@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import MarkdownEditor from "./MarkdownEditor"; // Import the MarkdownEditor component
-import "./styles.css"; // Import the styles
+import "./App.css"; // Import the styles
 
 function App() {
   // State to store the Markdown text input
