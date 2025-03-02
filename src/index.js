@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import react-markdown from "./components/App";
+import App from "./components/App";
 
 
 
 
 ReactDOM.render(
-    <react-markdown />,
+    <App />,
   document.getElementById('root')
 );
