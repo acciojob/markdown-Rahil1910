@@ -26,7 +26,7 @@ function MarkdownEditor({ markdownText, setMarkdownText }) {
       {/* Live Preview Section */}
       <div className="preview-area">
         <h2>Preview</h2>
-        <div className="preview-container">
+        <div className="preview">
           <ReactMarkdown>{markdownText}</ReactMarkdown>
         </div>
       </div>
