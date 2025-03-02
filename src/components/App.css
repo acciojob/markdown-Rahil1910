@@ -1,5 +1,5 @@
 /* General layout */
-.app-container {
+.app {
   font-family: Arial, sans-serif;
   padding: 20px;
   max-width: 1200px;
@@ -42,7 +42,7 @@ h1 {
 }
 
 /* Preview Container */
-.preview-container {
+.preview {
   background-color: white;
   padding: 20px;
   border-radius: 8px;
